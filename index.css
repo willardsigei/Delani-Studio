@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+.amazing p{
+    padding: 2px;
+  }
+.amazing h1{
+  padding: 1.5px;
+  margin: 3px;
+}
+.amazing{
+  background-image: url('assets/backrounds/h_img.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+  padding-top:30%; 
+  font-family: 'Gabriela', serif;
+
+}
+
+#logo{
+  margin-top: 16px;
+  margin-bottom: 20px;
+  width: 68px;
+  height: 66px;;
+}
+#rat{
+  padding-top : 20px;
+  margin-top: 12%;
+  padding-bottom: 31px; 
+}
+#rat {
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  20% { transform: translateX(50px);
+  }
+  40% {
+    transform: translateY(-55px);
+  }
+  60% {
+    transform: translateY(-45px);
+  }
+  80% { transform: translateX(-50px);
+  }
+}
+
+.about{
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top:40px;
+  font-family: 'Copse', serif;
+}
+#about{
+  font-family: 'Gabriela', serif;
+}
+html{
+    scroll-behavior: smooth;
+  }
