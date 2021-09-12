@@ -111,3 +111,17 @@ html{
   background-repeat: no-repeat;
   height: 100%;
   }
+
+  #message-form{
+    background-color: transparent;
+    text-align: center;
+  }
+  #sign,#development,#product{
+    display: none;
+  }
+  #input1,#input2,#comment{
+    background-color: transparent;
+  }
+  .form-control::placeholder{
+    color: white;
+  }
