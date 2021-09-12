@@ -1,14 +1,15 @@
+
 $(document).ready(function(){
-    $("#development-image").click(function(){
-      $("#development-image").hide();
-      +
-       c
-      $("#development").show();
+    $(".design").click(function(){
+      $("#sign-img").toggle();
+      $("#sign").toggle();
     });
-  });
-  $(document).ready(function(){
-    $("#development").click(function(){
-      $("#development").hide();
-      $("#development-image").show();
+    $(".development").click(function(){
+      $("#development-image").toggle();
+      $("#development").toggle();
     });
-  });
+    $(".product").click(function(){
+      $("#prod").toggle();
+      $("#product").toggle();
+    });
+});

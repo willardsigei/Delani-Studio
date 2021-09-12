@@ -84,13 +84,4 @@ html{
     padding-top: 10%;
     padding-bottom: 10%;
   }
-  .wedo{
-    position: relative;
-    font-family: 'Quattrocento', serif;
-    text-align: center;
-    padding-top: 40px;
-    font-family: 'Gabriela', serif;
-  }
-  .wedo .headings{
-    padding-bottom: 38px;
-  }
+  
