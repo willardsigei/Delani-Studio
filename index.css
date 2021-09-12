@@ -98,3 +98,16 @@ html{
   .wedo .headings{
     padding-bottom: 38px;
   }
+  .social-media{
+    text-align: center;
+  }
+  footer{
+    text-align: center;
+  }
+  .container-fluid{
+  background-image: url("assets/backrounds/s_image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  }
