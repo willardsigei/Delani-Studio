@@ -84,4 +84,17 @@ html{
     padding-top: 10%;
     padding-bottom: 10%;
   }
-  
+  .wedo{
+    position: relative;
+    font-family: 'Quattrocento', serif;
+    text-align: center;
+    padding-top: 40px;
+    font-family: 'Gabriela', serif;
+  }
+  #overlay, #overlay2, #over3, #overlay4, #overlay5, #overlay6, #overlay7, #overlay8 {
+  padding: 40px;
+
+  }
+  .wedo .headings{
+    padding-bottom: 38px;
+  }
