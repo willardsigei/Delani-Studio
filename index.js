@@ -1,67 +1,83 @@
-
-$(document).ready(function(){
-    $(".design").click(function(){
-      $("#sign-img").toggle();
-      $("#sign").toggle();
-    });
-    $(".development").click(function(){
-      $("#development-image").toggle();
-      $("#development").toggle();
-    });
-    $(".product").click(function(){
-      $("#prod").toggle();
-      $("#product").toggle();
-    });
+$(document).ready(function () {
+  $(".design").click(function () {
+    $("#sign-img").toggle();
+    $("#sign").toggle();
+  });
+  $(".development").click(function () {
+    $("#development-image").toggle();
+    $("#development").toggle();
+  });
+  $(".product").click(function () {
+    $("#prod").toggle();
+    $("#product").toggle();
+  });
 });
-$("#work1").mouseover(function(){
+$("#work1")
+  .mouseover(function () {
     $("#overlay").show();
-  }).mouseout(function(){
+  })
+  .mouseout(function () {
     $("#overlay").hide();
   });
-  $("#work2").mouseover(function(){
+$("#work2")
+  .mouseover(function () {
     $("#overlay2").show();
-  }).mouseout(function(){
+  })
+  .mouseout(function () {
     $("#overlay2").hide();
   });
-  $("#work3").mouseover(function(){
+$("#work3")
+  .mouseover(function () {
     $("#over3").show();
-  }).mouseout(function(){
+  })
+  .mouseout(function () {
     $("#over3").hide();
   });
-  $("#work4").mouseover(function(){
+$("#work4")
+  .mouseover(function () {
     $("#overlay4").show();
-  }).mouseout(function(){
+  })
+  .mouseout(function () {
     $("#overlay4").hide();
   });
-  $("#work5").mouseover(function(){
+$("#work5")
+  .mouseover(function () {
     $("#overlay5").show();
-  }).mouseout(function(){
+  })
+  .mouseout(function () {
     $("#overlay5").hide();
   });
-  $("#work6").mouseover(function(){
+$("#work6")
+  .mouseover(function () {
     $("#overlay6").show();
-  }).mouseout(function(){
+  })
+  .mouseout(function () {
     $("#overlay6").hide();
   });
-  $("#work7").mouseover(function(){
+$("#work7")
+  .mouseover(function () {
     $("#overlay7").show();
-  }).mouseout(function(){
+  })
+  .mouseout(function () {
     $("#overlay7").hide();
   });
-  $("#work8").mouseover(function(){
+$("#work8")
+  .mouseover(function () {
     $("#overlay8").show();
-  }).mouseout(function(){
+  })
+  .mouseout(function () {
     $("#overlay8").hide();
-  });  $(document).ready(function(){
-    $("form#message-form").submit(function(){
-      var name = $("input#input1").val();
-      if ($("input#input1").val() && $("input#input2").val()){
-        alert(name + ",thank you for reaching out to us. We will get back to you soon.");
-      }
-      else {
-        alert("Please enter your name and email address!");
-      }
-      
-    });
-  
   });
+$(document).ready(function () {
+  $("form#message-form").submit(function () {
+    var name = $("input#input1").val();
+    if ($("input#input1").val() && $("input#input2").val()) {
+      alert(
+        name +
+          ",thank you for reaching out to us. We will get back to you soon."
+      );
+    } else {
+      alert("Please enter your name and email address!");
+    }
+  });
+});
